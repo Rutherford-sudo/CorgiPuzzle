@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: black;
+    font-size: 2em;
+}
+
+#grade {
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#grade div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url("IMG_5901-e1571080495809-960x720.jpg");
+    background-size: 300px 200px;
+    transition: 0.25s ease-in-out;
+}
+
+#grade div:hover {
+    z-index: 10;
+    opacity: 0.7;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 3px white;
+}
